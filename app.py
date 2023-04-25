@@ -2,7 +2,7 @@ import httpx
 from fastapi import FastAPI, Request
 
 
-TOKEN = Token
+TOKEN = "6143957998:AAFiE9fiXPLrjtZQXuAvNC_QKHKwfULplIg"
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 client = httpx.AsyncClient()
 
